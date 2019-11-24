@@ -1,7 +1,7 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
-  array.lenght |counter|
-    
+  array.length.times do |index|
+    return index if array[index] == value_to_find
   end
 end
 
